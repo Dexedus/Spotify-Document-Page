@@ -1,0 +1,125 @@
+img{
+    height: 40px;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    margin-left: 298px;
+    padding-top: 60px;
+}
+
+#navbar{
+    margin-top: 30px;
+    position: fixed;
+    height: 100%;
+    border-right: solid rgb(133, 133, 133);
+    text-align: center;
+}
+
+#navlist {
+    padding: 0;
+}
+
+.first{
+    border-top: solid rgb(133, 133, 133);
+}
+
+.nav-link{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: solid rgb(133, 133, 133);
+    text-align: center;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navheader{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 275px;
+    font-family: 'Times New Roman', Times, serif ;
+
+}
+
+#navbar ul{
+    height: 75%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+a:hover {
+    color: rgb(19, 19, 19);
+}
+
+p, li{
+    color: rgb(87, 87, 87);
+}
+
+#header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+h1{
+    margin: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2, p, li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.picture{
+    height: auto;
+    width: 60%;
+    margin-left: 20%;
+}
+
+p{
+    margin-left: 15px;
+}
+
+@media (max-width:667px){
+
+    #navbar{
+        position: relative;
+        border-left: solid rgb(133, 133, 133);
+        padding-top: 20px;
+    }
+
+    #navheader{
+        width: 100%;
+    }
+
+
+    main{
+        margin: auto;
+        margin-top: -60px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    section>ul>li{
+        text-align: left;
+    }
+
+    .picture{
+        margin: auto;
+        width: 100%;
+    }
+
+}
