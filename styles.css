@@ -122,4 +122,8 @@ p{
         width: 100%;
     }
 
+        section>ul>li, p{
+        margin-right: 15px;
+    }
+
 }
